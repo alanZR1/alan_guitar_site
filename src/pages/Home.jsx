@@ -1,16 +1,12 @@
 import Navbar from "../components/layout/Navbar";
-import Hero from "../components/home/Hero";
-import Featured from "../components/home/LatestContent";
-import Footer from "../components/layout/Footer";
 
 function Home() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Featured />
-      <Footer />
-    </div>
+    // navbar es un componente y se usan fragmetns para
+    //  coompartir varios elementos sin necesidad de un contenedor adicional
+    <>      
+      <Navbar/>
+    </>
   );
 }
 
